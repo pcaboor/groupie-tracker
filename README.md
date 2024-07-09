@@ -3,6 +3,12 @@
 
 web server handled in Golang 1.22.4.
 
+This project contain all features of groupie tracker. 
+
+- Filters
+- Searchbar
+- Vizualisation
+- Geolocalization
 
 ## ✍🏼 Authors
 
