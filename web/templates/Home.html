@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <link rel="icon" type="image/x-icon" href="../static/icon.png">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://cdn.maptiler.com/maplibre-gl-js/v2.2.0-pre.2/maplibre-gl.js"></script>
+    <link href="https://cdn.maptiler.com/maplibre-gl-js/v2.2.0-pre.2/maplibre-gl.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header .header-right a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        header .header-right a:hover {
+            text-decoration: underline;
+        }
+
+        .filter-form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            width: calc(33% - 20px);
+        }
+
+        .filter-group label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .filter-group input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .apply-filters-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-start;
+        }
+
+        .apply-filters-button:hover {
+            background-color: #0056b3;
+        }
+
+        .range-slider {
+            display: flex;
+            gap: 10px;
+        }
+
+        .range-slider input[type="range"] {
+            flex: 1;
+        }
+
+        .range-values {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+
+        #search-input {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #search-results {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            max-height: 300px;
+            overflow-y: auto;
+            width: 300px;
+            z-index: 1000;
+        }
+
+        #search-results li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #search-results li:hover {
+            background-color: #f0f0f0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat( minmax(200px, 1fr));
+            gap: 20px;
+  
+            padding: 20px;
+        }
+
+        .grid-item {
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            padding: 10px;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card__image-container {
+            height: 150px; /* Ajuster la hauteur selon vos besoins */
+            overflow: hidden;
+        }
+
+        .card__image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card__h2 {
+            padding: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a  class="logo">Groupie-Tracker</a>
+        <div class="header-right">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <form method="GET" action="/" class="filter-form">
+            <div class="filter-group">
+                <label for="creation_date_from">Creation Date From:</label>
+                <input type="number" id="creation_date_from" name="creation_date_from" value="{{.Filters.CreationDateFrom}}">
+            </div>
+            <div class="filter-group">
+                <label for="creation_date_to">Creation Date To:</label>
+                <input type="number" id="creation_date_to" name="creation_date_to" value="{{.Filters.CreationDateTo}}">
+            </div>
+            <div class="filter-group">
+                <label for="first_album_from">First Album Date From:</label>
+                <input type="date" id="first_album_from" name="first_album_from" value="{{.Filters.FirstAlbumFrom}}">
+            </div>
+            <div class="filter-group">
+                <label for="first_album_to">First Album Date To:</label>
+                <input type="date" id="first_album_to" name="first_album_to" value="{{.Filters.FirstAlbumTo}}">
+            </div>
+            <div class="filter-group">
+                <label for="members_range">Number of Members:</label>
+                <div class="range-slider">
+                    <input type="range" id="members_from" name="members_from" min="1" max="10" value="{{.Filters.MembersFrom}}" oninput="updateRangeValue('members_from_value', this.value)">
+                </div>
+                <div class="range-values">
+                    <span id="members_from_value">{{.Filters.MembersFrom}}</span> - <span id="members_to_value">{{.Filters.MembersTo}}</span>
+                </div>
+            </div>
+            <div class="filter-group">
+                <label for="locations">Locations (comma separated):</label>
+                <input type="text" id="locations" name="locations" value="{{.Filters.Locations}}">
+            </div>
+            <button type="submit" class="apply-filters-button">Apply Filters</button>
+        </form>
+
+        <div>
+            <input type="text" id="search-input" placeholder="Search...">
+          
+        </div>
+
+        <section class="cards" id="suggestions">
+           
+            {{range $i, $e := .Data1}}
+            <a href="{{$e.Id}}">
+                <div class="grid-item">
+                    <div class="card__image-container">
+                        <img src="{{$e.Image}}" alt="{{$e.Name}}">
+                    </div>
+                    <h2 class="card__h2">{{$e.Name}}</h2>
+                </div>
+            </a>
+            {{end}}
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024, Groupie-Tracker. All rights reserved.
+    </footer>
+
+    <script>
+        function updateRangeValue(id, value) {
+    document.getElementById(id).textContent = value;
+}
+
+async function fetchSuggestions(query) {
+    try {
+        const response = await fetch(`/search?q=${query}`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const suggestions = await response.json();
+        displaySuggestions(suggestions);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        displaySuggestions([]);
+    }
+}
+
+function displaySuggestions(suggestions) {
+    const suggestionBox = document.getElementById("suggestions");
+    
+    if (suggestions.length === 0) {
+        suggestionBox.innerHTML = "<p>No results found</p>";
+        return;
+    }
+
+    suggestionBox.innerHTML = ""; // On vide les suggestions actuelles
+
+    suggestions.forEach(suggestion => {
+        if (suggestion.type === "artist/band") {
+            const card = `
+                <a href="/${suggestion.id}">
+                    <div class="grid-item">
+                        <div class="card__image-container">
+                            <img src="${suggestion.image}" alt="${suggestion.name}">
+                        </div>
+                        <h2 class="card__h2">${suggestion.name}</h2>
+                    </div>
+                </a>
+            `;
+            suggestionBox.insertAdjacentHTML('beforeend', card);
+        } else {
+            // Pour les autres types de résultats (membres, locations, etc.), 
+            // vous pouvez choisir de les afficher différemment ou de ne pas les afficher du tout
+            const listItem = `<li>${suggestion.type}: ${suggestion.name}</li>`;
+            suggestionBox.insertAdjacentHTML('beforeend', listItem);
+        }
+    });
+}
+
+function displayAllArtists() {
+    const suggestionBox = document.getElementById("suggestions");
+    suggestionBox.innerHTML = `
+        {{range $i, $e := .Data1}}
+        <a href="{{$e.Id}}">
+            <div class="grid-item">
+                <div class="card__image-container">
+                    <img src="{{$e.Image}}" alt="{{$e.Name}}">
+                </div>
+                <h2 class="card__h2">{{$e.Name}}</h2>
+            </div>
+        </a>
+        {{end}}
+    `;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById("search-input");
+    const suggestionBox = document.getElementById("suggestions");
+
+    // Afficher tous les artistes au chargement de la page
+    displayAllArtists();
+
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.trim();
+        if (query.length > 0) {
+            fetchSuggestions(query);
+        } else {
+            displayAllArtists();
+        }
+    });
+});
+    </script>
+</body>
+
+</html>

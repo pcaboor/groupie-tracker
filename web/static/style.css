@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100vh; 
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background-color: #000; 
+  padding: 20px;
+}
+
+
+h1, h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+
+h1 { 
+  font-size: 3.5em; 
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+
+.text--medium {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ecf0f1;
+}
+
+.cards {
+  grid-column: 2 / span 12;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+  grid-gap: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #171719;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #000;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+}
+
+.card__image-container {
+  
+  width: 100%;
+  padding-top: 69.25%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.card__image-container img {
+  width: 100%;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.card__content {
+  padding: 10px;
+
+
+
+}
+
+.card__title {
+  margin-bottom: 20px;
+  font-size: small;
+  color: #fff;
+}
+
+.card__h2 {
+  margin-bottom: 20px;
+  font-size: medium;
+  color: white;
+}
+
+.card__info {
+  display: flex;
+  align-self: end;
+  align-items: center;
+
+}
+
+.card__price {
+  margin-left: auto;
+  padding: 5px 20px;
+  background-color: #303032;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);  /* 3 cards per row */
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);  /* 2 cards per row */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;  /* 1 card per row */
+  }
+}
+
+
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 260px;
+  background: #121212;
+  padding: 25px;
+
+}
+.logo {
+  font-size:medium;
+  padding: 0 15px;
+  font-weight: 800;
+}
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+  overflow-y: scroll;
+}
+.menu-content::-webkit-scrollbar {
+  display: none;
+}
+.menu-items {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  transition: all 0.4s ease;
+}
+.submenu-active .menu-items {
+  transform: translateX(-56%);
+}
+.menu-title {
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+.item a,
+.submenu-item {
+  padding: 16px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 12px;
+}
+.item i {
+  font-size: 16px;
+}
+.item a:hover,
+.submenu-item:hover,
+.submenu .menu-title:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.submenu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+.submenu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: calc(-100% - 26px);
+  height: calc(100% + 100vh);
+  background: #11101d;
+  display: none;
+}
+.show-submenu ~ .submenu {
+  display: block;
+}
+.submenu .menu-title {
+  border-radius: 12px;
+  cursor: pointer;
+}
+.submenu .menu-title i {
+  margin-right: 10px;
+}
+.navbar,
+.main {
+
+  padding: 30px;
+  left: 260px;
+  width: calc(100% - 260px);
+  transition: all 0.5s ease;
+
+}
+.sidebar.close ~ .navbar,
+.sidebar.close ~ .main {
+  left: 0;
+  width: 100%;
+}
+
+.navbar #sidebar-close {
+  cursor: pointer;
+}
+.main {
+  position: relative;
+  justify-content: start;
+  align-items: center;
+  justify-content: center;
+
+  background: #131313;
+}
+.main h1 {
+  color: white;
+justify-content: start;
+align-items: start;
+align-content:start;
+  font-size: 30px;
+  text-align: center;
+
+  padding-right:1000px;
+}
+button.card__price {
+  background-color: #303032; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement interne */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Pas de soulignement */
+  display: inline-block; /* Affichage en ligne */
+  font-size: 14px; /* Taille de police */
+  margin: 4px 2px; /* Marges */
+  cursor: pointer; /* Curseur pointeur */
+  border-radius: 30px; /* Coins arrondis */
+  transition: background-color 0.3s, transform 0.3s; /* Transition pour les effets */
+}
+
+button.card__price:hover {
+  background-color: #505050; /* Couleur de fond au survol */
+  transform: translateY(-2px); /* Légère translation vers le haut au survol */
+}
+
+button.card__price:active {
+  background-color: #202020; /* Couleur de fond quand le bouton est actif */
+  transform: translateY(1px); /* Légère translation vers le bas quand le bouton est actif */
+}
+
+button.card__price:focus {
+  outline: none; /* Pas de contour de focus par défaut */
+  box-shadow: 0 0 0 3px rgba(48, 48, 50, 0.5); /* Ombre de focus */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0%;
+
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.search-form {
+  margin-left: auto;
+  margin-right: 0%;
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 5px;
+  font-size: 1em;
+}
+
+.search-form button {
+  padding: 5px 10px;
+  font-size: 1em;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+p {
+  color: #fff;
+}
+

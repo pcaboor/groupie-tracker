@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <link rel="icon" type="image/x-icon" href="../static/icon.png">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://cdn.maptiler.com/maplibre-gl-js/v2.2.0-pre.2/maplibre-gl.js"></script>
+    <link href="https://cdn.maptiler.com/maplibre-gl-js/v2.2.0-pre.2/maplibre-gl.css" rel="stylesheet" />
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .left-column {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .right-column {
+            flex: 1;
+        }
+
+        .card {
+            background-color: #171719;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .artistdetails {
+            margin-top: 10px;
+        }
+
+        #map {
+            height: 600px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="logo">Groupie-Tracker</a>
+        <div class="header-right">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+            <div class="card">
+                <div class="artist">
+                    <div class="card__content">
+                        <img src="{{.Data5.Image}}" alt="{{.Data5.Name}}" class="responsive-img" >
+                        <div>
+                            <h2>{{.Data5.Name}}</h2>
+                            <p><strong>Membres:</strong></p>
+                            <p>{{.Data5.Members}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="artistdetails">
+                    <h2>Concerts</h2>
+                    <ul>
+                        {{range $i, $e := .Data6}}
+                        <li><strong>{{$i}} : </strong>{{$e}}</li>
+                        {{end}}
+                    </ul>
+                    <p><strong>Premier concert : </strong>{{.Data5.FirstAlbum}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+  <div id="map"></div>    
+        </div>
+    </div>
+
+    <script>
+        var artistLocationsData = '{{.ArtistLocations | json}}';
+        var artistLocations = JSON.parse(artistLocationsData);
+
+       const apiKey = '3vpA40hTYfVxxZHYLSk9';
+        
+        const dataUrl = 'https://api.maptiler.com/data/0e694d91-c703-456f-a236-54d96c8353e6/features.json?key=3vpA40hTYfVxxZHYLSk9';
+     
+        const map = new maplibregl.Map({
+            container: 'map',
+            style: 'https://api.maptiler.com/maps/ch-swisstopo-lbm-dark/style.json?key=3vpA40hTYfVxxZHYLSk9',
+            center: [-0.07, 51.5],
+            zoom: 4,
+            hash: true
+        });
+
+        map.on('load', function () {
+            fetch(dataUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const filteredFeatures = data.features.filter(feature =>
+                        artistLocations.includes(feature.properties.name)
+                    );
+
+                    map.addSource('points', {
+                        type: 'geojson',
+                        data: {
+                            type: 'FeatureCollection',
+                            features: filteredFeatures
+                        }
+                    });
+                  
+                    map.addLayer({
+                        id: 'points',
+                        type: 'circle',
+                        source: 'points',
+                        paint: {
+                            'circle-radius': 6,
+                            'circle-color': '#00FF00'
+                        }
+                    });
+
+                    // Ajouter les coordonnées pour la polyline
+                    const coordinates = filteredFeatures.map(feature => feature.geometry.coordinates);
+
+                    // Ajouter la source pour la polyline
+                  
+
+                    // Ajouter la couche pour dessiner la polyline
+                 map.addLayer({
+                        id: 'route',
+                        type: 'line',
+                        source: 'route',
+                        layout: {
+                            'line-join': 'bevel',
+                            'line-cap': 'square'
+                        },
+                        paint: {
+                            'line-color': '#00FF00',
+                            'line-width': 2
+                        }
+                    });
+                });
+        });
+
+        map.on('error', function (err) {
+            console.error('An error occurred:', err);
+        });
+    </script>
+</body>
+
+</html>

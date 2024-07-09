@@ -1,0 +1,2189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0193,
+          35.7596
+        ]
+      },
+      "properties": {
+        "name": "north_carolina-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9001,
+          32.1656
+        ]
+      },
+      "properties": {
+        "name": "georgia-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "name": "los_angeles-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6489,
+          35.8617
+        ]
+      },
+      "properties": {
+        "name": "saitama-japan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5022,
+          34.6937
+        ]
+      },
+      "properties": {
+        "name": "osaka-japan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.9066,
+          35.1815
+        ]
+      },
+      "properties": {
+        "name": "nagoya-japan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7691,
+          -36.8667
+        ]
+      },
+      "properties": {
+        "name": "penrose-new_zealand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5036,
+          -45.8788
+        ]
+      },
+      "properties": {
+        "name": "dunedin-new_zealand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0739,
+          20.6296
+        ]
+      },
+      "properties": {
+        "name": "playa_del_carmen-mexico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5665,
+          -17.5516
+        ]
+      },
+      "properties": {
+        "name": "papeete-french_polynesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.4505,
+          -22.2711
+        ]
+      },
+      "properties": {
+        "name": "noumea-new_caledonia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1276,
+          51.5074
+        ]
+      },
+      "properties": {
+        "name": "london-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+      
+        "coordinates": [
+          6.6323,
+          46.5197
+        ]
+      },
+      "properties": {
+        "name": "lausanne-switzerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8357,
+          45.764
+        ]
+      },
+      "properties": {
+        "name": "lyon-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9631,
+          -37.8136
+        ]
+      },
+      "properties": {
+        "name": "victoria-australia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2792,
+          -32.0102
+        ]
+      },
+      "properties": {
+        "name": "new_south_wales-australia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7028,
+          -20.9176
+        ]
+      },
+      "properties": {
+        "name": "queensland-australia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7633,
+          -36.8485
+        ]
+      },
+      "properties": {
+        "name": "auckland-new_zealand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3673,
+          -7.7972
+        ]
+      },
+      "properties": {
+        "name": "yogyakarta-indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1077,
+          48.1486
+        ]
+      },
+      "properties": {
+        "name": "bratislava-slovakia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0402,
+          47.4979
+        ]
+      },
+      "properties": {
+        "name": "budapest-hungary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5615,
+          53.9045
+        ]
+      },
+      "properties": {
+        "name": "minsk-belarus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4179,
+          36.7783
+        ]
+      },
+      "properties": {
+        "name": "california-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4194,
+          38.8026
+        ]
+      },
+      "properties": {
+        "name": "nevada-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ]
+      },
+      "properties": {
+        "name": "sao_paulo-brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5128,
+          -34.4715
+        ]
+      },
+      "properties": {
+        "name": "san_isidro-argentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0937,
+          34.0489
+        ]
+      },
+      "properties": {
+        "name": "arizona-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.9018,
+          31.9686
+        ]
+      },
+      "properties": {
+        "name": "texas-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0686,
+          59.3293
+        ]
+      },
+      "properties": {
+        "name": "stockholm-sweden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6877,
+          50.9675
+        ]
+      },
+      "properties": {
+        "name": "werchter-belgium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1393,
+          38.7223
+        ]
+      },
+      "properties": {
+        "name": "lisbon-portugal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.934,
+          43.263
+        ]
+      },
+      "properties": {
+        "name": "bilbao-spain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0721,
+          4.711
+        ]
+      },
+      "properties": {
+        "name": "bogota-colombia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.7128
+        ]
+      },
+      "properties": {
+        "name": "new_york-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7735,
+          51.2277
+        ]
+      },
+      "properties": {
+        "name": "dusseldorf-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2039,
+          56.1629
+        ]
+      },
+      "properties": {
+        "name": "aarhus-denmark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2426,
+          53.4808
+        ]
+      },
+      "properties": {
+        "name": "manchester-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6821,
+          50.1109
+        ]
+      },
+      "properties": {
+        "name": "frankfurt-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      },
+      "properties": {
+        "name": "berlin-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5683,
+          55.6761
+        ]
+      },
+      "properties": {
+        "name": "copenhagen-denmark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.531,
+          25.276
+        ]
+      },
+      "properties": {
+        "name": "doha-qatar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6859,
+          46.7296
+        ]
+      },
+      "properties": {
+        "name": "minnesota-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3985,
+          40.6331
+        ]
+      },
+      "properties": {
+        "name": "illinois-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8777,
+          19.076
+        ]
+      },
+      "properties": {
+        "name": "mumbai-india"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3773,
+          24.4539
+        ]
+      },
+      "properties": {
+        "name": "abu_dhabi-united_arab_emirates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1945,
+          41.2033
+        ]
+      },
+      "properties": {
+        "name": "pennsylvania-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.682,
+          51.5382
+        ]
+      },
+      "properties": {
+        "name": "westcliff_on_sea-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0753,
+          50.8345
+        ]
+      },
+      "properties": {
+        "name": "merkers-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4455,
+          45.2538
+        ]
+      },
+      "properties": {
+        "name": "maine-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9746,
+          57.7089
+        ]
+      },
+      "properties": {
+        "name": "gothenburg-sweden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5158,
+          27.9944
+        ]
+      },
+      "properties": {
+        "name": "florida-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1637,
+          33.8361
+        ]
+      },
+      "properties": {
+        "name": "south_carolina-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9297,
+          48.6695
+        ]
+      },
+      "properties": {
+        "name": "pagney_derriere_barine-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9937,
+          53.5511
+        ]
+      },
+      "properties": {
+        "name": "hamburg-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2347,
+          48.8397
+        ]
+      },
+      "properties": {
+        "name": "boulogne_billancourt-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3601,
+          43.8367
+        ]
+      },
+      "properties": {
+        "name": "nimes-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3606,
+          46.2331
+        ]
+      },
+      "properties": {
+        "name": "sion-switzerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2926,
+          49.8209
+        ]
+      },
+      "properties": {
+        "name": "ostrava-czechia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.306,
+          46.636
+        ]
+      },
+      "properties": {
+        "name": "klagenfurt-austria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7931,
+          49.1541
+        ]
+      },
+      "properties": {
+        "name": "freyming_merlebach-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8891,
+          41.6488
+        ]
+      },
+      "properties": {
+        "name": "zaragoza-spain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ]
+      },
+      "properties": {
+        "name": "madrid-spain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1734,
+          41.3851
+        ]
+      },
+      "properties": {
+        "name": "barcelona-spain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1729,
+          -22.9068
+        ]
+      },
+      "properties": {
+        "name": "rio_de_janeiro-brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.877,
+          -8.0476
+        ]
+      },
+      "properties": {
+        "name": "recife-brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3731,
+          51.3397
+        ]
+      },
+      "properties": {
+        "name": "leipzig-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3004,
+          47.7546
+        ]
+      },
+      "properties": {
+        "name": "salem-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4417,
+          51.1805
+        ]
+      },
+      "properties": {
+        "name": "monchengladbach-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6947,
+          53.8612
+        ]
+      },
+      "properties": {
+        "name": "cuxhaven-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9304,
+          56.0384
+        ]
+      },
+      "properties": {
+        "name": "skanderborg-denmark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9041,
+          52.3676
+        ]
+      },
+      "properties": {
+        "name": "amsterdam-netherlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.086,
+          39.8895
+        ]
+      },
+      "properties": {
+        "name": "burriana-spain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.466,
+          65.0121
+        ]
+      },
+      "properties": {
+        "name": "oulu-finland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5841,
+          46.7712
+        ]
+      },
+      "properties": {
+        "name": "napoca-romania"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6753,
+          24.7136
+        ]
+      },
+      "properties": {
+        "name": "riyadh-saudi_arabia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4822,
+          42.3086
+        ]
+      },
+      "properties": {
+        "name": "canton-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2082,
+          46.8139
+        ]
+      },
+      "properties": {
+        "name": "quebec-canada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1398,
+          36.1699
+        ]
+      },
+      "properties": {
+        "name": "las_vegas-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3161,
+          25.6866
+        ]
+      },
+      "properties": {
+        "name": "monterrey-mexico"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2571,
+          32.9595
+        ]
+      },
+      "properties": {
+        "name": "del_mar-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "name": "paris-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.8318,
+          37.9643
+        ]
+      },
+      "properties": {
+        "name": "missouri-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
+      },
+      "properties": {
+        "name": "chicago-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8904,
+          52.4862
+        ]
+      },
+      "properties": {
+        "name": "birmingham-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      },
+      "properties": {
+        "name": "washington-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3832,
+          43.6532
+        ]
+      },
+      "properties": {
+        "name": "toronto-canada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0589,
+          42.3601
+        ]
+      },
+      "properties": {
+        "name": "boston-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.0937,
+          39.32
+        ]
+      },
+      "properties": {
+        "name": "utah-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2518,
+          55.8642
+        ]
+      },
+      "properties": {
+        "name": "glasgow-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2603,
+          53.3498
+        ]
+      },
+      "properties": {
+        "name": "dublin-ireland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1791,
+          51.4816
+        ]
+      },
+      "properties": {
+        "name": "cardiff-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0943,
+          57.1497
+        ]
+      },
+      "properties": {
+        "name": "aberdeen-uk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0122,
+          52.2297
+        ]
+      },
+      "properties": {
+        "name": "warsaw-poland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.19,
+          45.4642
+        ]
+      },
+      "properties": {
+        "name": "milan-italy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6024,
+          44.3148
+        ]
+      },
+      "properties": {
+        "name": "michigan-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5724,
+          43.1939
+        ]
+      },
+      "properties": {
+        "name": "new_hampshire-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8259,
+          47.5151
+        ]
+      },
+      "properties": {
+        "name": "sochaux-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4697,
+          51.4416
+        ]
+      },
+      "properties": {
+        "name": "eindhoven-netherlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7522,
+          59.9139
+        ]
+      },
+      "properties": {
+        "name": "oslo-norway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8456,
+          -6.2088
+        ]
+      },
+      "properties": {
+        "name": "jakarta-indonesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4158,
+          23.1123
+        ]
+      },
+      "properties": {
+        "name": "huizhou-china"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9544,
+          31.8107
+        ]
+      },
+      "properties": {
+        "name": "changzhou-china"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1694,
+          22.3193
+        ]
+      },
+      "properties": {
+        "name": "hong_kong-china"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.5186,
+          18.2528
+        ]
+      },
+      "properties": {
+        "name": "sanya-china"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9222,
+          57.0488
+        ]
+      },
+      "properties": {
+        "name": "aalborg-denmark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ]
+      },
+      "properties": {
+        "name": "seattle-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.997,
+          41.2565
+        ]
+      },
+      "properties": {
+        "name": "omaha-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5786,
+          39.0997
+        ]
+      },
+      "properties": {
+        "name": "kansas_city-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1994,
+          38.627
+        ]
+      },
+      "properties": {
+        "name": "st_louis-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1581,
+          39.7684
+        ]
+      },
+      "properties": {
+        "name": "indianapolis-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.885,
+          41.9834
+        ]
+      },
+      "properties": {
+        "name": "rosemont-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6681,
+          42.9634
+        ]
+      },
+      "properties": {
+        "name": "grand_rapids-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5673,
+          45.5017
+        ]
+      },
+      "properties": {
+        "name": "montreal-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1724,
+          40.7357
+        ]
+      },
+      "properties": {
+        "name": "newark-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.592,
+          40.7007
+        ]
+      },
+      "properties": {
+        "name": "uniondale-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1652,
+          39.9526
+        ]
+      },
+      "properties": {
+        "name": "philadelphia-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6502,
+          40.2859
+        ]
+      },
+      "properties": {
+        "name": "hershey-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9959,
+          40.4406
+        ]
+      },
+      "properties": {
+        "name": "pittsburgh-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0348,
+          34.0007
+        ]
+      },
+      "properties": {
+        "name": "columbia-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6483,
+          -33.4569
+        ]
+      },
+      "properties": {
+        "name": "santiago-chile"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0715,
+          29.9511
+        ]
+      },
+      "properties": {
+        "name": "new_orleans-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8946,
+          47.5554
+        ]
+      },
+      "properties": {
+        "name": "frauenfeld-switzerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2666,
+          60.4518
+        ]
+      },
+      "properties": {
+        "name": "turku-finland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9442,
+          40.6782
+        ]
+      },
+      "properties": {
+        "name": "brooklyn-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3738,
+          48.2082
+        ]
+      },
+      "properties": {
+        "name": "vienna-austria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9445,
+          50.0647
+        ]
+      },
+      "properties": {
+        "name": "krakow-poland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5417,
+          47.3769
+        ]
+      },
+      "properties": {
+        "name": "zurich-switzerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4179,
+          40.6782
+        ]
+      },
+      "properties": {
+        "name": "amityville-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.265,
+          44.9778
+        ]
+      },
+      "properties": {
+        "name": "minneapolis-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0458,
+          42.3314
+        ]
+      },
+      "properties": {
+        "name": "detroit-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2711,
+          37.8044
+        ]
+      },
+      "properties": {
+        "name": "oakland-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8431,
+          35.2271
+        ]
+      },
+      "properties": {
+        "name": "charlotte-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3531,
+          33.9617
+        ]
+      },
+      "properties": {
+        "name": "inglewood-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0364,
+          42.3149
+        ]
+      },
+      "properties": {
+        "name": "windsor-canada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.512,
+          39.1031
+        ]
+      },
+      "properties": {
+        "name": "cincinnati-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9145,
+          33.8366
+        ]
+      },
+      "properties": {
+        "name": "anaheim-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9842,
+          14.5995
+        ]
+      },
+      "properties": {
+        "name": "manila-philippines"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0251,
+          -27.4698
+        ]
+      },
+      "properties": {
+        "name": "brisbane-australia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9631,
+          -37.8136
+        ]
+      },
+      "properties": {
+        "name": "melbourne-australia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      },
+      "properties": {
+        "name": "sydney-australia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0428,
+          -12.0464
+        ]
+      },
+      "properties": {
+        "name": "lima-peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5665,
+          53.2194
+        ]
+      },
+      "properties": {
+        "name": "groningen-netherlands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4028,
+          51.2194
+        ]
+      },
+      "properties": {
+        "name": "antwerp-belgium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.93,
+          12.1224
+        ]
+      },
+      "properties": {
+        "name": "willemstad-netherlands_antilles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4378,
+          50.0755
+        ]
+      },
+      "properties": {
+        "name": "prague-czechia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4897,
+          53.1663
+        ]
+      },
+      "properties": {
+        "name": "scheessel-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3767,
+          47.4245
+        ]
+      },
+      "properties": {
+        "name": "st_gallen-switzerland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.536,
+          54.5189
+        ]
+      },
+      "properties": {
+        "name": "gdynia-poland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.78,
+          50.291
+        ]
+      },
+      "properties": {
+        "name": "arras-france"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5018,
+          13.7563
+        ]
+      },
+      "properties": {
+        "name": "bangkok-thailand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5654,
+          25.033
+        ]
+      },
+      "properties": {
+        "name": "taipei-taiwan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      },
+      "properties": {
+        "name": "seoul-south_korea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.582,
+          48.1351
+        ]
+      },
+      "properties": {
+        "name": "munich-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.466,
+          49.4875
+        ]
+      },
+      "properties": {
+        "name": "mannheim-germany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194,
+          37.7749
+        ]
+      },
+      "properties": {
+        "name": "san_francisco-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3816,
+          -34.6037
+        ]
+      },
+      "properties": {
+        "name": "buenos_aires-argentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2177,
+          -30.0346
+        ]
+      },
+      "properties": {
+        "name": "porto_alegre-brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9378,
+          -19.9167
+        ]
+      },
+      "properties": {
+        "name": "belo_horizonte-brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9292,
+          -15.7801
+        ]
+      },
+      "properties": {
+        "name": "brasilia-brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5542,
+          43.8041
+        ]
+      },
+      "properties": {
+        "name": "oregon-usa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1216,
+          49.2827
+        ]
+      },
+      "properties": {
+        "name": "vancouver-canada"
+      }
+    },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-86.9023, 32.3182]
+      },
+      "properties": {
+          "name": "alabama-usa"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [23.7275, 37.9838]
+      },
+      "properties": {
+          "name": "athens-greece"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [11.2558, 43.7696]
+      },
+      "properties": {
+          "name": "florence-italy"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [5.9815, 50.8983]
+      },
+      "properties": {
+          "name": "landgraaf-netherlands"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-71.8023, 42.2373]
+      },
+      "properties": {
+          "name": "massachusetts-usa"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-99.1332, 19.4326]
+      },
+      "properties": {
+          "name": "mexico_city-mexico"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-95.3698, 29.7604]
+      },
+      "properties": {
+          "name": "houston-usa"
+      }
+  },
+  {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-79.3832, 43.6532]
+      },
+      "properties": {
+          "name": "toronto-canada"
+      }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.59935148924703, 40.465116190693735]
+    },
+    "properties": {
+      "name": "toronto-usa"
+    }
+  }
+  ]
+}
